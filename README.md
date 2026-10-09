@@ -89,8 +89,11 @@ both datasets (~5-6x internally, ~3.8-4.2x externally), with accuracy comparable
 trailing dense rather than improved. Foreground Dice is higher on CPM-17 than on
 PanNuke for every configuration, which is the encouraging generalization signal — the
 models were not retrained or tuned on CPM-17 at all. Full discussion, figures, and
-caveats are in the project report (`PathBonnet_Project_Report.pdf`, not included in
-this repo — ask the author for a copy).
+caveats are in [`PathBonnet_Project_Report.pdf`](PathBonnet_Project_Report.pdf) at
+the repo root. A plain markdown version of the results table above is in
+[`outputs/results_table.md`](outputs/results_table.md), and the qualitative figures
+(dense vs. sparse predictions, representative training samples) are in
+[`outputs/figures/`](outputs/figures/).
 
 ## 5. Outputs used in the report
 
