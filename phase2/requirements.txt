@@ -1,0 +1,12 @@
+# DeepLabV3+ follow-up for PathBonnet
+# Run on a CUDA machine (Colab / Kaggle). torch version intentionally unpinned:
+# install the build matching your CUDA (e.g. pip install torch --index-url
+# https://download.pytorch.org/whl/cu121).
+
+torch
+numpy
+pillow
+tqdm
+scikit-learn
+kagglehub
+segmentation-models-pytorch==0.5.0  # DeepLabV3Plus API verified against this release
