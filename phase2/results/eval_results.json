@@ -1,0 +1,9 @@
+{
+ "n_images": 133,
+ "fg_dice": 0.8371670827631158,
+ "per_class": {
+  "nuclei": 0.8371670827631158
+ },
+ "ms_per_image": 58.15228696212671,
+ "split": "NuInsSeg fold 4 (test)"
+}
